@@ -44,13 +44,3 @@ Proyek ini dijalankan secara lokal menggunakan **XAMPP** dan diakses melalui bro
 
 ---
 
-## 📁 Struktur File
-tugas9_phpmysql/
-├── index.php               ← Halaman Formulir
-├── list_students.php       ← Halaman Data Siswa Terdaftar
-├── process.php             ← Proses penyimpanan ke database
-├── config.php              ← Koneksi ke MySQL
-├── style.css               ← File CSS
-└── screenshots/
-    ├── Screenshot_20250616_224242.png
-    └── Screenshot_20250616_224255.png
