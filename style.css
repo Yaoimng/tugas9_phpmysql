@@ -1,0 +1,130 @@
+/* 90s Theme Styling */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-image: url('https://www.transparenttextures.com/patterns/45-degree-fabric-light.png');
+    background-color: #ffccff;
+    color: #000080;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffff99;
+    border: 5px solid #00ccff;
+    border-radius: 15px;
+    box-shadow: 10px 10px 0 #ff6699;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #ff3399;
+    text-shadow: 3px 3px 0 #00ccff;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #9900cc;
+}
+
+input[type="text"], 
+textarea, 
+select {
+    width: 100%;
+    padding: 8px;
+    border: 3px solid #ff9900;
+    background-color: #ffffff;
+    border-radius: 5px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 16px;
+}
+
+.radio-group {
+    display: flex;
+    gap: 20px;
+}
+
+.radio-option {
+    display: flex;
+    align-items: center;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+    transform: scale(1.5);
+}
+
+button[type="submit"] {
+    background: linear-gradient(to bottom, #ff6600, #ff9900);
+    color: white;
+    border: 3px solid #000080;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    display: block;
+    margin: 20px auto;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    box-shadow: 5px 5px 0 #000080;
+    transition: all 0.2s;
+}
+
+button[type="submit"]:hover {
+    transform: scale(1.05);
+    box-shadow: 3px 3px 0 #000080;
+}
+
+.message {
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #ccffcc;
+    border: 3px solid #00cc00;
+    border-radius: 5px;
+}
+
+.stars {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: yellow;
+    box-shadow: 0 0 10px 2px yellow;
+    opacity: 0.7;
+}
+
+.blink {
+    animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+
+/* Add some 90s decorative elements */
+.decoration {
+    position: fixed;
+    font-size: 24px;
+    color: #ff00ff;
+    animation: float 3s ease-in-out infinite;
+    z-index: -1;
+}
+
+@keyframes float {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-15px); }
+    100% { transform: translateY(0); }
+}
