@@ -32,15 +32,15 @@ Proyek ini dijalankan secara lokal menggunakan **XAMPP** dan diakses melalui bro
 
 ### 🖊️ Formulir Pendaftaran
 
-![Formulir Pendaftaran](![Screenshot_20250616_224242](https://github.com/user-attachments/assets/f5df032c-412f-41a8-831d-d2e3542472f6)
-)
+![Formulir Pendaftaran](https://github.com/user-attachments/assets/7483ca7d-4120-40b9-8451-f0565b4b87fe)
+
 
 ---
 
 ### 📋 Data Siswa Terdaftar
 
-![Data Siswa Terdaftar](![Screenshot_20250616_224255](https://github.com/user-attachments/assets/8a060d55-a9df-4b8a-b53a-2db49fcce603)
-)
+![Data Siswa Terdaftar](https://github.com/user-attachments/assets/8676c80e-26e2-46ed-a1c0-6d3c42fd60ed)
+
 
 ---
 
