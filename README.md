@@ -1,13 +1,13 @@
 # 🎓 Formulir Pendaftaran Siswa Baru - PHP & MySQL
 
-## 📌 Deskripsi Proyek
+## 📌 Deskripsi Tugas
 Ini adalah aplikasi web sederhana yang dibuat menggunakan **PHP** dan **MySQL** untuk melakukan pendaftaran siswa baru secara online. Aplikasi ini memungkinkan siswa mengisi formulir dan menyimpan datanya ke dalam database.
 
 Proyek ini dijalankan secara lokal menggunakan **XAMPP** dan diakses melalui browser dengan `localhost`.
 
 ---
 
-## 🛠️ Teknologi yang Digunakan
+## 🛠️ 
 - **HTML + CSS** → Tampilan antarmuka
 - **PHP** → Proses backend dan koneksi database
 - **MySQL** → Menyimpan data pendaftaran
